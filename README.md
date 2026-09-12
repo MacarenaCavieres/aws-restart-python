@@ -79,10 +79,10 @@ print(evaluation(1, 250))
 
 ## Requisitos del Entorno
 
-- Python 3.6 o superior[cite: 1]
-- Módulos estándar requeridos (incluidos en la biblioteca estándar de Python)[cite: 1]:
-    - `csv`[cite: 1]
-    - `copy`[cite: 1]
-    - `random`[cite: 1]
-    - `os`[cite: 1]
-    - `subprocess`[cite: 1]
+- Python 3.6 o superior
+- Módulos estándar requeridos (incluidos en la biblioteca estándar de Python):
+    - `csv`
+    - `copy`
+    - `random`
+    - `os`
+    - `subprocess`
