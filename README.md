@@ -10,35 +10,35 @@ Este repositorio contiene el conjunto de prácticas y laboratorios desarrollados
 
 ### 1. Tipos de Datos Primarios y Operaciones Básicas
 
-- **Interacción con la consola y REPL:** Uso del shell interactivo de Python (`python3`) para la ejecución de operaciones aritméticas elementales y validación de expresiones[cite: 1].
-- **Tipos de datos numéricos y booleanos:** Declaración de variables de tipo entero (`int`), flotante (`float`), complejo (`complex`) y booleano (`bool`), inspeccionando sus tipos mediante la función integrada `type()` y formateando cadenas con `str()`[cite: 1].
-- **Manejo de cadenas de texto (Strings):** Concatenación de cadenas, lectura de datos desde la entrada estándar mediante `input()` y formateo de salidas dinámicas utilizando el método `.format()` y f-strings[cite: 1].
+- **Interacción con la consola y REPL:** Uso del shell interactivo de Python (`python3`) para la ejecución de operaciones aritméticas elementales y validación de expresiones.
+- **Tipos de datos numéricos y booleanos:** Declaración de variables de tipo entero (`int`), flotante (`float`), complejo (`complex`) y booleano (`bool`), inspeccionando sus tipos mediante la función integrada `type()` y formateando cadenas con `str()`.
+- **Manejo de cadenas de texto (Strings):** Concatenación de cadenas, lectura de datos desde la entrada estándar mediante `input()` y formateo de salidas dinámicas utilizando el método `.format()` y f-strings.
 
 ### 2. Estructuras de Datos Compuestas
 
-- **Colecciones (Listas, Tuplas y Diccionarios):** Manipulación de listas mutables, acceso por índice y modificación de elementos; uso de tuplas inmutables; e implementación de diccionarios para la gestión de datos mediante pares clave-valor[cite: 1].
-- **Listas de tipos mixtos:** Creación de colecciones con múltiples tipos de datos heterogéneos e iteración sobre estas para validar dinámicamente sus tipos[cite: 1].
+- **Colecciones (Listas, Tuplas y Diccionarios):** Manipulación de listas mutables, acceso por índice y modificación de elementos; uso de tuplas inmutables; e implementación de diccionarios para la gestión de datos mediante pares clave-valor.
+- **Listas de tipos mixtos:** Creación de colecciones con múltiples tipos de datos heterogéneos e iteración sobre estas para validar dinámicamente sus tipos.
 
 ### 3. Control de Flujo e Iteración
 
-- **Estructuras condicionales:** Implementación de decisiones lógicas mediante bloques `if`, `elif` y `else` para procesar entradas e iteraciones condicionales del usuario[cite: 1].
-- **Bucles `while` y `for`:** Construcción de un juego interactivo de adivinanza numérica con generación de valores aleatorios (`random`) usando `while`, e iteraciones secuenciales controladas con `for` y `range()`[cite: 1].
+- **Estructuras condicionales:** Implementación de decisiones lógicas mediante bloques `if`, `elif` y `else` para procesar entradas e iteraciones condicionales del usuario.
+- **Bucles `while` y `for`:** Construcción de un juego interactivo de adivinanza numérica con generación de valores aleatorios (`random`) usando `while`, e iteraciones secuenciales controladas con `for` y `range()`.
 
 ### 4. Procesamiento de Archivos y Secuencias Biológicas
 
-- **Lectura y procesamiento de CSV:** Parsing e importación de datos tabulares desde un archivo `.csv` a estructuras en memoria mediante los módulos `csv` y `copy` (uso de `deepcopy` para evitar copias superficiales)[cite: 1].
-- **Limpieza y manipulación de texto:** Procesamiento y limpieza manual y programática de secuencias de aminoácidos de la preproinsulina humana descargadas desde NCBI[cite: 1].
-- **Cálculos bioquímicos:** Procesamiento de cadenas proteicas, cálculo aproximado del peso molecular de la insulina a partir del conteo de aminoácidos, determinación del porcentaje de error respecto al valor real y evaluación de la carga neta según variaciones del pH[cite: 1].
+- **Lectura y procesamiento de CSV:** Parsing e importación de datos tabulares desde un archivo `.csv` a estructuras en memoria mediante los módulos `csv` y `copy` (uso de `deepcopy` para evitar copias superficiales).
+- **Limpieza y manipulación de texto:** Procesamiento y limpieza manual y programática de secuencias de aminoácidos de la preproinsulina humana descargadas desde NCBI.
+- **Cálculos bioquímicos:** Procesamiento de cadenas proteicas, cálculo aproximado del peso molecular de la insulina a partir del conteo de aminoácidos, determinación del porcentaje de error respecto al valor real y evaluación de la carga neta según variaciones del pH.
 
 ### 5. Modularidad y Cifrado de Información
 
-- **Funciones definidas por el usuario:** Diseño e implementación de un algoritmo de Cifrado César modularizado en funciones especificas (`getDoubleAlphabet`, `getMessage`, `getCipherKey`, `encryptMessage`, `decryptMessage`)[cite: 1].
-- **Manejo de alfabetos y desplazamiento:** Transformación de caracteres mediante operaciones sobre cadenas de texto e índices para encriptar y desencriptar mensajes[cite: 1].
+- **Funciones definidas por el usuario:** Diseño e implementación de un algoritmo de Cifrado César modularizado en funciones especificas (`getDoubleAlphabet`, `getMessage`, `getCipherKey`, `encryptMessage`, `decryptMessage`).
+- **Manejo de alfabetos y desplazamiento:** Transformación de caracteres mediante operaciones sobre cadenas de texto e índices para encriptar y desencriptar mensajes.
 
 ### 6. Administración de Sistemas y Depuración
 
-- **Ejecución de comandos Bash:** Interacción con el sistema operativo invocando comandos del Shell (`ls`, `uname`, `ps`) desde el código utilizando los módulos `os` (mediante `os.system`) y `subprocess` (mediante `subprocess.run`)[cite: 1].
-- **Depuración de código (Debugging):** Uso del entorno de depuración interactivo de AWS Cloud9 para establecer puntos de interrupción (breakpoints), inspeccionar variables y rastrear errores de tipos de datos (_Traceback_)[cite: 1].
+- **Ejecución de comandos Bash:** Interacción con el sistema operativo invocando comandos del Shell (`ls`, `uname`, `ps`) desde el código utilizando los módulos `os` (mediante `os.system`) y `subprocess` (mediante `subprocess.run`).
+- **Depuración de código (Debugging):** Uso del entorno de depuración interactivo de AWS Cloud9 para establecer puntos de interrupción (breakpoints), inspeccionar variables y rastrear errores de tipos de datos (_Traceback_).
 
 ## Mención Especial: Desafío de Números Primos
 
